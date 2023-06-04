@@ -1,0 +1,48 @@
+clauses
+	cinema("33005","Star","Zemlyanoy Val, 22c2","+7(846)246-08-52",60).
+	cinema("40845","Spark","Kostyakova, 10","+7(843)691-94-38",125).
+	cinema("87617","Ladoga","Wide, 12","+7(343)781-28-98",938).
+	cinema("25270","World of Art","Dolgorukovskaya, 33с3","+7(3952)56-32-28",49).
+	cinema("68237","GUM Cinema","Red Square, 3","+7(861)255-18-63",106).
+
+	film("426019","The Green Mile","Frank Darabont","1999","drama").
+	film("512929","Schindler's List","Steven Spielberg","1993","drama").
+	film("746130","The Shawshank Redemption","Frank Darabont","1994","drama").
+	film("616765","Coco","Lee Unkrich","2017","cartoon").
+	film("167232","The Lord of the Rings: The Return of the King","Peter Jackson","2003","fantasy").
+	film("198585","Interstellar","Christopher Nolan","2014","fantasy").
+	film("427584","Fight Club","David Fincher","1999","thriller").
+	film("654633","Pulp Fiction","Quentin Tarantino","1994","crime").
+	film("315624","The Lord of the Rings: The Fellowship of the Ring","Peter Jackson","2001","fantasy").
+	film("886975","Back to the Future","Robert Zemeckis","1985","fantasy").
+	film("274041","Ivan Vasilievich changes his profession","Leonid Gaidai","1973","comedy").
+	film("251799","The Lion King","Roger Allers","1994","cartoon").
+	film("291549","Spirited Away","Hayao Miyazaki","2001","anime").
+	film("965801","Intouchables","Olivier Nakache","2011","drama").
+	film("815571","The Adventures of Sherlock Holmes and Dr. Watson: The Hound of the Baskervilles","Igor Maslennikov","1981","detective").
+	film("176296","Shrek","Andrew Adamson","2001","cartoon").
+
+	show("33005","426019","13/06/2023","12.00",559).
+	show("33005","512929","13/06/2023","14.00",639).
+	show("33005","746130","06/25/2023","20.00",872).
+	show("33005","616765","07/15/2023","21.00",623).
+	show("33005","167232","09/06/2023","17.00",917).
+	show("33005","198585","07/08/2023","22.00",430).
+	show("40845","746130","05/25/2023","18.00",357).
+	show("40845","426019","13/06/2023","12.00",819).
+	show("40845","167232","06/25/2023","23.00",476).
+	show("40845","427584","09/06/2023","20.00",490).
+	show("40845","198585","09/06/2023","15.00",760).
+	show("87617","427584","07/08/2023","18.00",246).
+	show("87617","654633","05/25/2023","20.00",165).
+	show("87617","315624","05/25/2023","15.00",473).
+	show("87617","886975","08/05/2023","18.00",613).
+	show("87617","274041","21/07/2023","18.00",887).
+	show("87617","251799","25/06/2023","20.00",878).
+	show("25270","274041","07/15/2023","19.00",790).
+	show("25270","426019","08/05/2023","15.00",686).
+	show("25270","167232","07/21/2023","18.00",298).
+	show("68237","291549","08/05/2023","18.00",267).
+	show("68237","965801","08/07/2023","15.00",596).
+	show("68237","815571","07/21/2023","18.00",910).
+	show("68237","176296","07/15/2023","19.00",461).
